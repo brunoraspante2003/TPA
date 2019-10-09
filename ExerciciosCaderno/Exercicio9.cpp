@@ -1,7 +1,7 @@
 /*-----------------------------------------
-	Função: Algoritmo que mostra o quociente e o resto da divisão de um numero por outro
+	FunÃ§Ã£o: Algoritmo que mostra o quociente e o resto da divisÃ£o de um numero por outro
 	Autor: Bruno Raspante Rodrigues
-	Data de criação: 30/09/2019
+	Data de criaÃ§Ã£o: 30/09/2019
 -------------------------------------------*/
 
 #include <locale>
@@ -9,11 +9,11 @@
 int main(){
 	setlocale(LC_ALL, "");
 	int divisor=0, dividendo=0, quociente=0, resto=0;
-	printf("Informe um Número :\n");
+	printf("Informe um NÃºmero :\n");
 	scanf("%i", &dividendo);
-    printf("Informe o número que será dividido por :\n");
+        printf("Informe o nÃºmero que serÃ¡ dividido por :\n");
 	scanf("%i", &divisor);
 	quociente = dividendo / divisor;
 	resto = dividendo - (divisor * quociente);
-	printf("O Quociente é igual a : %i", resto);
+	printf("O Quociente Ã© igual a : %i", resto);
 }
