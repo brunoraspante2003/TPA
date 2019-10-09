@@ -1,7 +1,7 @@
 /*-----------------------------------------
-	FunÁ„o: Informa a area de um Retangulo
+	Fun√ß√£o: Informa a area de um Retangulo
 	Autor: Bruno Raspante Rodrigues
-	Data de criaÁ„o: 30/09/2019
+	Data de cria√ß√£o: 30/09/2019
 -------------------------------------------*/
 
 #include <locale>
@@ -14,5 +14,6 @@ int main(){
 	printf("Digite o numero da Altura :\n");
 	scanf("%i", &altura);
 	area = base * altura;
-	printf("A ¡rea do Retangulo È igual a: %i", area);
+	printf("A √Årea do Retangulo √© igual a: %i", area);
 }
+
